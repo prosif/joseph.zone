@@ -8,21 +8,57 @@
             background-color: #242424;
             color: #B0B0B0;
         }
+
+        #about p {
+            margin-bottom: 2%;
+        }
+
+        #personal-projects {
+            margin-top: 4%;
+        }
+
     </style>
     </head>
     <body>
         <h1>
             Hello, world!
         </h1>
-        <p>
-            I'm Joseph and I like programming, hip-hop, burritos and some other stuff. I'm currently a "cloud engineer" at <a href="https://unearthlabs.com" target="blank">Unearth</a> where I do infrastructure stuff and platform development. Prior to Unearth I was at Amazon working on internal tools for Prime Now & <a href="https://www.amazon.science/blog/hyprank-how-alexa-determines-what-skill-can-best-meet-a-customers-need" target="blank">machine learning stuff for Alexa</a>. Before that, I was a student developer at <a href="https://cyverse.org/" target="blank">CyVerse</a> where I worked on a cloud computing platform called <a href="https://cyverse.org/atmosphere" target="blank">Atmosphere.</a>
-        </p>
-
-        <p>
-            In my free time I work on <a href="https://homegames.io" target="blank">Homegames</a> with my friend Yazeed. We do a <a href="https://open.spotify.com/show/0ZjCaMQld0OcBqKgOIUiez?si=aPlF7T1OTF2ljuxTiYsEng" target="blank">weekly podcast</a> where we talk about Homegames development and a lot of other stuff. 
-        </p>
-        <p>
-            You can find me on <a href="https://github.com/prosif" target="blank">GitHub</a> & <a href="https://linkedin.com/in/prosif" target="blank">LinkedIn.</a>
-        </p>
+        <div id='about'>
+            <p>
+                I'm Joseph and I like programming, hip-hop, burritos and some other stuff. I'm currently a "cloud engineer" at <a href="https://unearthlabs.com" target="blank">Unearth</a> where I do infrastructure stuff and platform development. Prior to Unearth I was at Amazon working on internal tools for Prime Now & <a href="https://www.amazon.science/blog/hyprank-how-alexa-determines-what-skill-can-best-meet-a-customers-need" target="blank">machine learning stuff for Alexa</a>. Before that, I was a student developer at <a href="https://cyverse.org/" target="blank">CyVerse</a> where I worked on a cloud computing platform called <a href="https://cyverse.org/atmosphere" target="blank">Atmosphere.</a>
+            </p>
+    
+            <p>
+                In my free time I work on <a href="https://homegames.io" target="blank">Homegames</a> with my friend Yazeed. It's an open source game platform built with JavaScript. We do a <a href="https://open.spotify.com/show/0ZjCaMQld0OcBqKgOIUiez?si=aPlF7T1OTF2ljuxTiYsEng" target="blank">weekly podcast</a> where we talk about Homegames development and a lot of other stuff. 
+            </p>
+            <p>
+                You can find me on <a href="https://github.com/prosif" target="blank">GitHub</a> & <a href="https://linkedin.com/in/prosif" target="blank">LinkedIn.</a>
+            </p>
+        </div>
+        <div id='personal-projects'>
+            <p>
+                Some of my past personal projects include:
+                <ul>
+                    <li>
+                        <a href="https://github.com/prosif/hapi-frontend" target="blank">HAPI - The Happy API</a>
+                        <p>
+                            The basic idea for this one was a simple public REST API that would allow people to contribute to a crowdsourced database of positive thoughts. The hope was that websites / applictations with integrate with the API and customers of those applications would post short positive messages about a specific category (eg. food, dogs). Never really took off but I still like the idea. hapi.io is dead, but the code lives on. 
+                        </p>
+                    </li>
+                    <li>
+                        <a href="https://github.com/prosif/viper-generator" target="blank">Viper album name generator</a>
+                        <p>
+                        Viper is a rapper known for releasing hundreds of albums with absurd names. I thought it'd be fun to create an app that would randomly generate album titles based off of Viper's discography. I released this as a web app hosted on hapi.io/viper for a short time and got a bit of popularity on a Reddit from it. GitHub user <a href="https://github.com/noskap" target="blank">Noskap</a> created a <a href="https://twitter.com/ViperAlbumBot" target="blank">Twitter bot based off of the generator</a>, so in some way this project still lives on. 
+                        </p>
+                    </li>
+                    <li>
+                        <a href="https://github.com/prosif/Command-Line-Motivator" target="blank">Motivate</a>
+                        <p>
+                        One of my earliest and probably least useful applications. I thought it'd be cool to make a simple tool in C that would randomly generate motivational phrases. The repo doesn't include a Makefile or any real instructions on how to use it. For some reason, I still install this on every new machine I get. It's still fun to type "motivate" during the work day and get some OutKast lyrics to keep me going.
+                        </p>
+                    </li>
+                </ul>
+            </p>
+        </div>
     </body>
 </html>
